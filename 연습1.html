@@ -1,5 +1,5 @@
 <!doctype html>
-<html><head><H1><U><font color="grey">WINTER NEWS</font></U></H1>
+<html><head>
   <title>눈</title>
   <meta charset="utf-8">
   <!-- Google tag (gtag.js) -->
@@ -11,8 +11,33 @@
 
     gtag('config', 'G-B0WCE04L2Q');
   </script></head>
-
   <body>
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style. backgroundColor='black'
+    document.querySelector('body').style. color='white'
+    ">
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style. backgroundColor='white'
+    document.querySelector('body').style. color='black'
+    ">
+
+    <input type="button" value='두번 누르세요' ondblclick="
+    document.querySelector('body').style. backgroundColor='yellow'
+    document.querySelector('body').style. color='red'
+    ">
+
+    <input type="button" value="두번 누르세요" ondblclick="
+    document.querySelector('body').style. backgroundColor='grey'
+    document.querySelector('body').style. color='powderblue'
+    ">
+    <span style="display:none">
+    1.나이트버전과 화이트 버전 코드 입력 중요한건 document.querySelector () 이후
+        스타일 속성 넣으려면 .style. 첨부 후 속성 넣음</span>
+      <span style="display:none">
+        2.웹페이지상 내가 쓴 부연설명 안보이게 하기 위에서는 p, br, span, div 등 태그 뒤에
+        style="display:none" 코드를 입력한다</span>
+
+    <H1><U><font color="grey">WINTER NEWS</font></U></H1>
     <ol>
     <details><summary><font size="4em" color="pink"><strong><a href="연습1.html">눈</a></strong></font></summary>
       <ul>
